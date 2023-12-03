@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+:root {
+  --principal-color: #dd0c16;
+  --big-font: "Lobster", serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: azure;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

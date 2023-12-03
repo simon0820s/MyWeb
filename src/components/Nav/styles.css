@@ -1,0 +1,46 @@
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../../public/img/navPhoto.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center center;
+  width: 10rem;
+  height: 30rem;
+  border-radius: 2px;
+  animation: initial-nav 1.2s ease-out forwards;
+}
+
+.nav-title {
+  color: var(--principal-color);
+  font-family: var(--big-font);
+  font-weight: bold;
+  font-size: 3rem;
+  letter-spacing: 4px;
+}
+
+@keyframes initial-nav {
+
+  0% {
+    transform: translateY(400px);
+    border-radius: 4px;
+  }
+  5% {
+    height: 30rem;
+  }
+  40% {
+    transform: translateY(0px);
+    width: 10rem;
+    height: 6rem;
+  }
+  85% {
+    width: 10rem;
+    height: 6rem;
+  }
+  100% {
+    width: 100vw;
+    height: 100vh;
+  }
+
+}
