@@ -6,7 +6,9 @@ const Nav = () => {
       <video className="nav-video" autoPlay loop muted>
         <source src="public/nav-background-video.mp4" type="video/mp4" />
       </video>
-      <h2 className="nav-title">Sar</h2>
+      <div className="nav-title-container">
+        <h2 className="nav-title">Sar</h2>
+      </div>
     </div>
   );
 };
