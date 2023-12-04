@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 
 :root {
   --principal-color: #dd0c16;
-  --big-font: "Lobster", serif;
+  --big-font: "Kaushan Script";
 }
 
 body {

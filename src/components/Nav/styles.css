@@ -41,7 +41,7 @@
 }
 
 .nav-title-container {
-  padding-bottom: 2px;
+  padding: 8px;
   overflow: hidden;
   margin: auto;
   position: absolute;
@@ -52,8 +52,7 @@
   color: var(--principal-color);
   font-family: var(--big-font);
   font-weight: bold;
-  font-size: 3rem;
-  letter-spacing: 5px;
+  font-size: 2.5rem;
   animation: initial-nav-title 3s cubic-bezier(1,-0.01, 0.49, 1.01);
 }
 

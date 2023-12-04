@@ -7,7 +7,7 @@ const Nav = () => {
         <source src="public/nav-background-video.mp4" type="video/mp4" />
       </video>
       <div className="nav-title-container">
-        <h2 className="nav-title">Sar</h2>
+        <h2 className="nav-title">SAR</h2>
       </div>
     </div>
   );
