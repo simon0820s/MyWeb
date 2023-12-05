@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 
 :root {
@@ -17,4 +16,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.special-text {
+  color: var(--principal-color);
+  font-family: var(--big-font);
 }

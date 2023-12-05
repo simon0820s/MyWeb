@@ -1,9 +1,9 @@
-import Nav from './components/Nav'
+import Home from './sections/Home'
 
 const App = () => {
   return (
     <div className='container'>
-      <Nav />
+      <Home />
     </div>
   )
 }
