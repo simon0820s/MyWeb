@@ -1,14 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
 :root {
   --principal-color: #dd0c16;
+  --text-color: #f6eee0;
   --big-font: "Kaushan Script";
+  --normal-font: "Arvo", serif;
 }
 
 body {
   margin: 0;
   padding: 0;
   background-color: azure;
+  line-height: 1.4;
+  letter-spacing: 0.6px;
+  text-decoration: none;
 }
 
 .container {
@@ -21,4 +27,9 @@ body {
 .special-text {
   color: var(--principal-color);
   font-family: var(--big-font);
+}
+
+.normal-text {
+  color: var(--text-color);
+  font-family: var(--normal-font);
 }
