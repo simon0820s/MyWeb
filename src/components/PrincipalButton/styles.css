@@ -9,7 +9,7 @@
   font-size: 15px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  transition: all 1s;
+  transition: all 0.5s;
   animation: initial-button 0.5s 1.8s ease-out forwards;
   &:after,
   &:before {
@@ -18,7 +18,7 @@
     height: 10px;
     position: absolute;
     border: 0px solid #fff;
-    transition: all 1s;
+    transition: all 0.5s;
   }
   &:after {
     top: 2px;

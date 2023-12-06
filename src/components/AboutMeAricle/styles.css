@@ -14,6 +14,20 @@
 
 .home-article p {
   margin: 0;
+  animation: reveal both;
+  animation-timeline: view();
+  animation-range: entry 20% cover 30%;
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
 
 .title-about {

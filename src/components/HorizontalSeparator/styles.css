@@ -8,9 +8,21 @@
   &::after {
     content: "";
     position: absolute;
-    width: 18rem;
+    width: 250px;
     height: 3px;
     background: linear-gradient(to right, var(--principal-color), transparent) ;
     transform: translateY(4px);
+    animation: lengthen;
+    animation-timeline: view();
+    animation-range: entry 20% cover 90%;
+  }
+}
+
+@keyframes lengthen {
+  from {
+    width: 2px;
+  }
+  to {
+    width: 250px;
   }
 }

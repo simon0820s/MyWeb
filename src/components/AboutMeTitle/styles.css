@@ -15,7 +15,6 @@
   flex-direction: column;
   gap: 20px;
   animation: initial-about-title 8s infinite;
-  transition: transform 300ms;
 }
 
 @keyframes initial-about-title {
