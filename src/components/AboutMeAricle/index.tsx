@@ -1,7 +1,7 @@
 import Title from "../Title";
 import "./styles.css";
 
-const HomeArticle = () => {
+const AboutMeArticle = () => {
   return (
     <div className="home-article-container">
       <article className="home-article">
@@ -28,4 +28,4 @@ const HomeArticle = () => {
   );
 };
 
-export default HomeArticle;
+export default AboutMeArticle;

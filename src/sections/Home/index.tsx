@@ -1,22 +1,18 @@
-import Layout from "../../components/Layout";
+import PrincipalButton from "../../components/PrincipalButton";
 import Title from "../../components/Title";
-import HomeArticle from "../../components/HomeArticle";
 import "./styles.css";
 
 const Home = () => {
   return (
     <div className="home-container">
-      
+
       <video className="home-video" autoPlay loop muted>
         <source src="public/video/home-background-video.mp4" type="video/mp4" />
       </video>
-
-      <div className="bass">
-        <Layout>
+        <div className="title-container">
           <Title>SAR.</Title>
-          <HomeArticle />
-        </Layout>
-      </div>
+          <PrincipalButton />
+        </div>
     </div>
   );
 };
