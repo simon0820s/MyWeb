@@ -1,0 +1,17 @@
+.horizontal-separator {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background-color: var(--principal-color);
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 18rem;
+    height: 3px;
+    background: linear-gradient(to right, var(--principal-color), transparent) ;
+    transform: translateY(4px);
+  }
+  
+}

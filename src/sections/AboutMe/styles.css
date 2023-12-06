@@ -2,3 +2,9 @@
   width: 100vw;
   height: 100vh;
 }
+
+.about-me-article {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

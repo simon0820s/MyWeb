@@ -1,4 +1,3 @@
-import Title from "../Title";
 import "./styles.css";
 
 const AboutMeArticle = () => {
@@ -11,18 +10,6 @@ const AboutMeArticle = () => {
           <span className="special-text"> Computer science </span>at the
           National University of Colombia.
         </p>
-        <div className="about-me-container">
-          <Title fontSize="40px">About me</Title>
-          <div>
-            <span className="vertical-bar"></span>
-            <ul className="normal-text about-me-list">
-              <li>* Seedling I’m currently learning React.js and Rust</li>
-              <li>* All of my projects are available at https://github.com/simon0820s</li>
-              <li>* Ask me about React, Next, ML, Blockchain, MongoDB</li>
-              <li>* How to reach me simon0820s@gmail.com</li>
-            </ul>
-          </div>
-        </div>
       </article>
     </div>
   );
