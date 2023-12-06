@@ -1,12 +1,13 @@
-.home-title-container {
+
+.about-title-container {
   padding-bottom: 8px;
   overflow: hidden;
 }
 
-.home-title {
+.about-title {
   margin: 0;
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 3rem;
   transform: translateY(90px);
   animation: initial-nav-title 800ms 1.8s cubic-bezier(1,-0.01, 0, 1) forwards;
 }
