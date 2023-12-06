@@ -16,10 +16,10 @@ const AboutMeArticle = () => {
           <div>
             <span className="vertical-bar"></span>
             <ul className="normal-text about-me-list">
-              <li>*</li>
-              <li>*</li>
-              <li>*</li>
-              <li>*</li>
+              <li>* Seedling I’m currently learning React.js and Rust</li>
+              <li>* All of my projects are available at https://github.com/simon0820s</li>
+              <li>* Ask me about React, Next, ML, Blockchain, MongoDB</li>
+              <li>* How to reach me simon0820s@gmail.com</li>
             </ul>
           </div>
         </div>
