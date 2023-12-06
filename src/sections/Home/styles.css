@@ -22,11 +22,13 @@
     transform: translateY(500px);
     width: 15rem;
     height: 40rem;
+    opacity: 0;
   }
   45% {
     transform: translateY(0px);
     width: 15rem;
     height: 10rem;
+    opacity: 100%;
   }
   60% {
     width: 15rem;
