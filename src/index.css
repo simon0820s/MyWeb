@@ -8,6 +8,10 @@
   --normal-font: "Arvo", serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -15,13 +19,15 @@ body {
   line-height: 1.4;
   letter-spacing: 0.6px;
   text-decoration: none;
+  overflow-x: hidden;
 }
 
 .container {
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  background-color: #070605;
 }
 
 .special-text {

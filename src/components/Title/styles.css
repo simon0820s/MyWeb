@@ -6,8 +6,7 @@
 .home-title {
   margin: 0;
   font-weight: bold;
-  font-size: 2rem;
-  transform: translateY(60px);
+  transform: translateY(90px);
   animation: initial-nav-title 800ms 1.8s cubic-bezier(1,-0.01, 0, 1) forwards;
 }
 

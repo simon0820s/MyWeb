@@ -12,7 +12,7 @@ const AboutMeArticle = () => {
           National University of Colombia.
         </p>
         <div className="about-me-container">
-          <Title>About me</Title>
+          <Title fontSize="40px">About me</Title>
           <div>
             <span className="vertical-bar"></span>
             <ul className="normal-text about-me-list">

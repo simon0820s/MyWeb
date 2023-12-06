@@ -1,5 +1,13 @@
+#home {
+  width: 100vw;
+  height: 100vh;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+}
 .home-container {
   position: relative;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,4 +55,5 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
 }

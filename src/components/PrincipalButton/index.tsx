@@ -2,7 +2,7 @@ import "./styles.css";
 
 const PrincipalButton = () => {
   return (
-    <a href="">
+    <a href="#about-me" className="btn">
       Click Me
     </a>
   );

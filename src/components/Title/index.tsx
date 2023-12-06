@@ -1,9 +1,20 @@
+import { ReactNode } from "react";
 import "./styles.css";
 
-const Title = ({children}) => {
+interface TitleProps {
+  fontSize: string,
+  children: ReactNode;
+}
+
+const Title: React.FC<TitleProps> = ({children, fontSize}) => {
+
+  const titleStile: React.CSSProperties = {
+    fontSize: fontSize
+  }
+
   return (
     <div className="home-title-container">
-      <h2 className="home-title special-text">{children}</h2>
+      <h2 style={titleStile} className="home-title special-text">{children}</h2>
     </div>
   );
 };

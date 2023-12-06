@@ -4,16 +4,20 @@ import "./styles.css";
 
 const Home = () => {
   return (
-    <div className="home-container">
-
-      <video className="home-video" autoPlay loop muted>
-        <source src="public/video/home-background-video.mp4" type="video/mp4" />
-      </video>
+    <section id="home">
+      <div className="home-container">
+        <video className="home-video" autoPlay loop muted>
+          <source
+            src="public/video/home-background-video.mp4"
+            type="video/mp4"
+          />
+        </video>
         <div className="title-container">
-          <Title>SAR.</Title>
+          <Title fontSize="70px">SAR.</Title>
           <PrincipalButton />
         </div>
-    </div>
+      </div>
+    </section>
   );
 };
 
