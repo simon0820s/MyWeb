@@ -2,6 +2,7 @@ import AboutMeArticle from "../../components/AboutMeAricle";
 import HorizontalSeparator from "../../components/HorizontalSeparator";
 import Layout from "../../components/Layout";
 import AboutMeTitle from '../../components/AboutMeTitle'
+import ContactMe from "../../components/ContactMe";
 import "./styles.css";
 
 const AboutMe = () => {
@@ -13,6 +14,7 @@ const AboutMe = () => {
           <HorizontalSeparator />
           <AboutMeArticle />
         </div>
+        <ContactMe />
       </Layout>
     </section>
   );
