@@ -1,5 +1,4 @@
 .contactMe-box {
-  margin-top: 40px;
   position: relative;
   width: 100%;
   height: auto;
@@ -8,10 +7,6 @@
   align-items: center;
   padding: 50px 0px;
   transition: 500ms;
-}
-
-.contactMe-box:hover {
-  margin-top: 0px;
 }
 
 .contactMe-box::before {
@@ -28,7 +23,7 @@
 
 .contactMe-box:hover::before {
   transform: skewX(0deg);
-  left: 50px;
+  left: 60px;
   width: calc(100% - 90px);
 }
 
@@ -110,7 +105,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 10px;
   left: 0;
   padding: 20px 20px;
   background: rgba(255,255,255,0.1);
@@ -129,4 +124,15 @@
 
 .contactMe-box:hover .card-content {
   padding-top: 20px;
+  left: -20px;
+}
+
+.contacts-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contacts-container a {
+  color: var(--text-color);
+  font-size: 1.5rem;
 }
