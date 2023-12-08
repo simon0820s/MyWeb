@@ -13,7 +13,7 @@ const Home = () => {
           />
         </video>
         <div className="title-container">
-          <Title fontSize="70px">SAR.</Title>
+          <Title />
           <PrincipalButton />
         </div>
       </div>

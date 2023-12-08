@@ -1,4 +1,5 @@
 import AboutMe from "./sections/AboutMe";
+import AboutMyCode from "./sections/AboutMyCode";
 import Home from "./sections/Home";
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <div className="container">
       <Home />
       <AboutMe />
+      <AboutMyCode /> 
     </div>
   );
 };

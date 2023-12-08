@@ -1,0 +1,93 @@
+#about-my-code {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to top, var(--principal-color), transparent);
+}
+
+.about-my-code-article {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  text-align: end;
+}
+
+.title {
+  text-shadow: -2px 4px 4px black;
+  font-size: 2rem;
+  font-weight: 900;
+  animation: code-text-reveal both;
+  animation-timeline: view();
+  animation-range: entry 20% cover 50% ;
+
+}
+
+
+.about-my-code-article span {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  background-color: var(--principal-color);
+  border-radius: 100%;
+}
+
+.about-my-code-article span::before {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 3px;
+  left: -299px;
+  top: 3px;
+  background: linear-gradient(to left, var(--principal-color), transparent);
+  animation: code-separator-reveal both;
+  animation-timeline: view();
+  animation-range: entry 10% cover 80%;
+}
+
+@keyframes code-separator-reveal {
+  from {width: 2px; left: 0px;}
+  to { width: 300px; left: -299px;}
+}
+
+.about-my-code-article p {
+  font-weight: 900;
+  animation: code-text-reveal both;
+  animation-timeline: view();
+  animation-range: entry 10% cover 30%;
+}
+
+@keyframes code-text-reveal {
+  from {transform: translateX(40px); opacity: 0;}
+  to {transform: translateX(0px); opacity: 1;}
+}
+
+.my-photo {
+  width: 250px;
+  height: 350px;
+  transform: translateX(-28px);
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0px 0px 2px black;
+  animation: my-photo-reveal both;
+  animation-timeline: view();
+  animation-range: entry 2% cover 40%
+}
+
+@keyframes my-photo-reveal {
+  from {
+    width: 350px;
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    width: 250px;
+    transform: translateX(-28px);
+    opacity: 1;
+  }
+}
+
+.code-article-text {
+  font-size: 1rem;
+}
