@@ -7,11 +7,11 @@
 .about-my-code-article {
   width: 100%;
   display: flex;
-  align-items: end;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 10px;
-  text-align: end;
+  text-align: center;
 }
 
 .title {
@@ -40,7 +40,7 @@
   height: 3px;
   left: -299px;
   top: 3px;
-  background: linear-gradient(to left, var(--principal-color), transparent);
+  background: linear-gradient(to left, transparent, var(--principal-color), transparent);
   animation: code-separator-reveal both;
   animation-timeline: view();
   animation-range: entry 10% cover 80%;
@@ -48,7 +48,7 @@
 
 @keyframes code-separator-reveal {
   from {width: 2px; left: 0px;}
-  to { width: 300px; left: -299px;}
+  to { width: 300px; left: -150px;}
 }
 
 .about-my-code-article p {
@@ -66,7 +66,7 @@
 .my-photo {
   width: 250px;
   height: 350px;
-  transform: translateX(-28px);
+  margin: auto;
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0px 0px 2px black;
@@ -77,13 +77,11 @@
 
 @keyframes my-photo-reveal {
   from {
-    width: 350px;
-    transform: translateX(-200px);
+    transform: translateY(100px);
     opacity: 0;
   }
   to {
-    width: 250px;
-    transform: translateX(-28px);
+    transform: translateX(0px);
     opacity: 1;
   }
 }
