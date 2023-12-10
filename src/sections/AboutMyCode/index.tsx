@@ -13,7 +13,7 @@ const AboutMyCode = () => {
             and back-end. I strive to write clear and easy-to-maintain code,
             always aiming for excellence and adaptability in my projects.
           </p>
-          <a href="https://github.com/simon0820s" className="git-button" target="_blank">
+          <a href="https://github.com/simon0820s" className="git-button" target="_blank" title="GitHub">
             Look at my code
           </a>
         </article>
