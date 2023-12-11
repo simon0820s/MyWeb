@@ -18,7 +18,7 @@
   height: 100%;
   border-radius: 8px;
   transform: skewX(15deg);
-  transition: 500ms;
+  transition: 300ms;
 }
 
 .contactMe-box:hover::before {
@@ -136,4 +136,14 @@
 .contacts-container a {
   color: var(--text-color);
   font-size: 1.5rem;
+}
+
+@media screen and (min-width: 640px) {
+  .contactMe-box::before {
+    width: 35%;
+  }
+  .contactMe-box:hover::before {
+    width: calc(100% - 250px);
+    left: 25%;
+  }
 }

@@ -17,7 +17,6 @@
 }
 
 @keyframes initial-nav-bg {
-
   0% {
     transform: translateY(500px);
     width: 15rem;
@@ -48,6 +47,12 @@
   left: 0;
   right: 0;
   object-fit: cover;
+  animation: home-video-reveal 500ms 1500ms both;
+}
+
+@keyframes home-video-reveal {
+  from {border-radius: 15px;}
+  to {border-radius: 0px;}
 }
 
 .title-container {
