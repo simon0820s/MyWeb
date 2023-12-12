@@ -17,7 +17,10 @@ const AboutMyCode = () => {
             Look at my code
           </a>
         </article>
-        <img className="my-photo" src="./img/myPhoto.jpeg" alt="my-photo" />
+        <div className="my-photo-container">
+          <img src="./img/myPhotoBackground.jpeg" alt="my-photo-background"  className="my-photo-background"/>
+          <img src="./img/myPhotoBody.png" alt="my-photo-body" className="my-photo-body" />
+        </div>
       </Layout>
     </section>
   );

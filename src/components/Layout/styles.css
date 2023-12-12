@@ -3,6 +3,8 @@
   flex-direction: column;
   align-items: start;
   justify-content: start;
-  gap: 60px;
-  padding: 3rem;
+  padding-top: 48px;
+  padding-left: 48px;
+  padding-right: 48px;
+
 }
