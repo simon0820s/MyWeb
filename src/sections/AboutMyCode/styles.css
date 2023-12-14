@@ -204,3 +204,14 @@
     margin: auto;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .about-my-code-article {
+    width: 60%; 
+  }
+  .my-photo-container {
+    width: 440px;
+    height: 550px;
+    margin: 40px auto;
+  }
+}

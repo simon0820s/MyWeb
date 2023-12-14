@@ -192,3 +192,20 @@
     right: 35%;
   }
 }
+
+@media screen and (min-width: 1440px){
+  .contactMe-box::before {
+    width: 40%;
+    left: 40%;
+  }
+  .contactMe-box:hover::before {
+    width: 75%;
+    left: 15%;
+  }
+  .contactMe-box:hover > span::before { 
+    left: 2%;
+  }
+  .contactMe-box:hover > span::after{ 
+    right: 10%;
+  }
+}
