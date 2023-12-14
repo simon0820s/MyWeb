@@ -9,6 +9,10 @@
   gap: 10px;
 }
 
+.about-me-rigth {
+  display: none;
+}
+
 @media screen and (min-width: 640px) {
   .about-me-article {
     width: 70%;
@@ -20,5 +24,30 @@
   .about-me-article {
     gap: 15px;
     width: 75%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-me-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-me-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
+  .about-me-rigth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    color: var(--text-color);
+    font-size: 80px;
   }
 }
