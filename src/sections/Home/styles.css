@@ -51,7 +51,7 @@
 }
 
 @keyframes home-video-reveal {
-  from {border-radius: 15px;}
+  from {border-radius: 10px;}
   to {border-radius: 0px;}
 }
 

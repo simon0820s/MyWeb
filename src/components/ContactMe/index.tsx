@@ -14,8 +14,8 @@ const ContactMe = () => {
         <div className="contacts-container">
           <a href="https://api.whatsapp.com/send/?phone=3002540388&text&type=phone_number&app_absent=0" target="_blank" title="WhatsApp"><BsWhatsapp /></a>
           <a href="https://www.instagram.com/arboledaramirezsimon/"  target="_blank" title="Instagram"><BsInstagram /></a>
-          <a href="https://linkedin.com/in/simón-arboleda-02b892247"  target="_blank" title="Linkedin"><BsLinkedin /></a>
           <a href="https://github.com/simon0820s"  target="_blank" title="GitHub"><BsGithub/></a>
+          <a href="https://linkedin.com/in/simón-arboleda-02b892247"  target="_blank" title="Linkedin"><BsLinkedin /></a>
           <a href="https://twitter.com/SimnArboleda4"  target="_blank" title="Twitter"><BsTwitter /></a>
         </div>
         

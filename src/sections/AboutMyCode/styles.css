@@ -134,8 +134,7 @@
   position: relative;
   width: 300px;
   height: 370px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 20px auto;
   animation: my-photo-reveal both;
   animation-timeline: view();
   animation-range: entry 5% cover 20%;
@@ -189,5 +188,12 @@
   }
   .git-button {
     font-size: medium;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .my-photo-container {
+    width: 320px;
+    height: 400px;
   }
 }

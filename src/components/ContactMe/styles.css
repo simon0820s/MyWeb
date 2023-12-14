@@ -1,5 +1,6 @@
 .contactMe-box {
   position: relative;
+  margin-top: 80px;
   width: 100%;
   height: auto;
   display: flex;
@@ -145,5 +146,22 @@
   .contactMe-box:hover::before {
     width: calc(100% - 250px);
     left: 25%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contactMe-box::before {
+    left: 40%;
+    width: 30%;
+  }
+  .contactMe-box:hover::before {
+    width: 50%;
+    left: 25%;
+  }
+  .contactMe-box:hover > span::before { 
+    left: 140px;
+  }
+  .contactMe-box:hover > span::after{ 
+    right: 180px;
   }
 }
