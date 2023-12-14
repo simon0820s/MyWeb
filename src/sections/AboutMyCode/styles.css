@@ -197,3 +197,10 @@
     height: 400px;
   }
 }
+
+@media screen and (min-width: 1024px) { 
+  .about-my-code-article {
+    width: 80%;
+    margin: auto;
+  }
+}
