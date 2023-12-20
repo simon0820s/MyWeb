@@ -6,7 +6,7 @@
   color: var(--text-color);
   font-family: var(--big-font);
   text-decoration: none;
-  font-size: 15px;
+  font-size: 1rem;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   transition: all 0.5s;
@@ -55,4 +55,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (min-width: 1440px){
+  .btn {
+    font-size: 1.5rem;
+  }
 }

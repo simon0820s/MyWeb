@@ -13,10 +13,10 @@
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  animation: initial-nav-bg 2s cubic-bezier(1, 0.06, 0.32, 0.91);
+  animation: initial-home-bg 2s cubic-bezier(1, 0.06, 0.32, 0.91);
 }
 
-@keyframes initial-nav-bg {
+@keyframes initial-home-bg {
   0% {
     transform: translateY(500px);
     width: 15rem;
@@ -32,6 +32,29 @@
   60% {
     width: 15rem;
     height: 10rem;
+  }
+  100% {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+@keyframes initial-home-bg-large {
+  0% {
+    transform: translateY(500px);
+    width: 22.5rem;
+    height: 40rem;
+    opacity: 0;
+  }
+  45% {
+    transform: translateY(0px);
+    width: 22.5rem;
+    height: 15rem;
+    opacity: 100%;
+  }
+  60% {
+    width: 22.5rem;
+    height: 15rem;
   }
   100% {
     width: 100vw;
@@ -63,4 +86,10 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+@media screen and (min-width: 1440px){
+  .home-container {
+    animation-name: initial-home-bg-large;
+  }
 }

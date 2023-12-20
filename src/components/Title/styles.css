@@ -7,10 +7,16 @@
   margin: 0;
   font-weight: bold;
   font-size: 4rem;
-  transform: translateY(90px);
+  transform: translateY(100px);
   animation: initial-nav-title 800ms 1.8s cubic-bezier(1,-0.01, 0, 1) forwards;
 }
 
 @keyframes initial-nav-title {
   100% {transform: translateY(0px);}
+}
+
+@media screen and (min-width: 1440px){
+  .home-title {
+    font-size: 5rem;
+  }
 }
